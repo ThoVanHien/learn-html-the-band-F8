@@ -217,5 +217,48 @@ html {
   color: #fff;
   margin-top: -3px;
 }
+.places-list {
+  margin-top: 32px;
+  margin-left: -8px;
+  margin-right: -8px;
+}
+.place-item {
+  float: left;
+  width: 33.33333%;
+  padding: 0 8px;
+}
+.place-img {
+  width: 100%;
+  display: block;
+}
+.place-img:hover {
+  opacity: 0.6;
+}
+.place-body {
+  background-color: #fff;
+  text-align: center;
+}
+
+.place-time {
+      margin-top: 15px;
+    color: #555;
+}
+
+.place-buy-btn {
+  padding: 10px 20px;
+  margin: 15px;
+    background-color: #333;
+    color: #f1f1f1;
+    border-radius: 0;
+    
+    text-decoration: none;
+    display: inline-block
+}
+.place-buy-btn:hover{
+      border: 1px solid #333;
+    background-color: #fff;
+    color: #000;
+}
+}
 #footer {
 }
