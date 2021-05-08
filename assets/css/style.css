@@ -56,8 +56,9 @@ html {
 }
 
 .btn {
-  padding: 10px 20px;
-  margin: 15px;
+  padding: 11px 16px;
+  margin: 15px;;
+
   background-color: #333;
   color: #f1f1f1;
 
@@ -65,6 +66,7 @@ html {
   display: inline-block;
 
   border: none;
+  text-align: center;
 }
 .btn:hover {
   background-color: #ccc;
@@ -173,6 +175,13 @@ html {
 #nav .nav-arrow-down {
   font-size: 14px;
 }
+#header .mobile-menu-btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: none;
+}
+#header .mobile-menu-btn,
 #header .search-btn {
   float: right;
   padding: 0 21px;
@@ -181,6 +190,13 @@ html {
   background-color: red;
   cursor: pointer;
 }
+#header .mobile-menu-btn:hover {
+  background-color: #ccc;
+}
+#header .mobile-menu-btn:hover .menu-icon {
+  color: #000;
+}
+#header .menu-icon,
 #header .search-icon {
   color: #fff;
   line-height: 46px;
@@ -191,9 +207,12 @@ html {
 
 #content .content-section {
   width: 800px;
+  max-width: 100%;
   margin-left: auto;
   margin-right: auto;
   padding: 64px 0 112px;
+  padding-left: 16px;
+  padding-right: 16px;
 }
 #content .section-heading {
   text-align: center;
@@ -217,7 +236,7 @@ html {
   opacity: 0.6;
 }
 #content .members-list {
-  margin-top: 25px;
+  margin-top: 32px;
 }
 #content .member-item {
   text-align: center;
@@ -273,7 +292,7 @@ html {
   margin-top: -3px;
 }
 .places-list {
-  margin-top: 32px;
+  margin-top: 16px;
 }
 .place-item {
   float: left;
